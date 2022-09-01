@@ -18,7 +18,7 @@ class Priority {
     }
   }
 
-  get #index() {
+  get index() {
     return Priority.legalValues().indexOf(this.#value);
   }
 
