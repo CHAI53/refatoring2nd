@@ -1,9 +1,7 @@
-class Employee {}
-
-class Salesperson extends Employee {
+class Employee {
   #name;
 }
 
-class Engineer extends Employee {
-  #name;
-}
+class Salesperson extends Employee {}
+
+class Engineer extends Employee {}
